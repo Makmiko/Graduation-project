@@ -1,0 +1,22 @@
+img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main_panel {
+  padding: 20px 30px;
+}
+
+.apartment_item {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+button {
+  margin: 0 auto;
+}
