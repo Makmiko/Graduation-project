@@ -1,0 +1,71 @@
+{
+  "urls": {
+    "main": {
+      "path": "/",
+      "controller": "Makmiko\\Project\\Controllers\\RealtyController::showRealties",
+      "method": "GET"
+    },
+    "page 404": {
+      "path": "/page_not_found",
+      "controller": "Makmiko\\Project\\Controllers\\ErrorController::page404",
+      "method": "GET"
+    },
+    "show realties": {
+      "path": "/realty/{typeOfRealty}",
+      "controller": "Makmiko\\Project\\Controllers\\RealtyController::showRealties",
+      "method": "GET"
+    },
+    "show realty": {
+      "path": "/realty/{realtyType}/{id:\\d+}",
+      "controller": "Makmiko\\Project\\Controllers\\RealtyController::showRealty",
+      "method": "GET"
+    },
+    "add realty": {
+      "path": "/realty_add",
+      "controller": "Makmiko\\Project\\Controllers\\RealtyController::addRealty",
+      "method": "POST"
+    },
+    "delete realty": {
+      "path": "/delete_realty/{id:\\d+}",
+      "controller": "Makmiko\\Project\\Controllers\\RealtyController::deleteRealty",
+      "method": "GET"
+    },
+    "registration": {
+      "path": "/registration",
+      "controller": "Makmiko\\Project\\Controllers\\AccountController::regUser",
+      "method": "GET"
+    },
+    "add user": {
+      "path": "/registration",
+      "controller": "Makmiko\\Project\\Controllers\\AccountController::addUser",
+      "method": "POST"
+    },
+    "account": {
+      "path": "/account",
+      "controller": "Makmiko\\Project\\Controllers\\AccountController::userAccount",
+      "method": "GET"
+    },
+    "add article": {
+      "path": "/article/add",
+      "controller": "Makmiko\\Project\\Controllers\\ArticleController::addAction",
+      "method": "POST"
+    },
+    "login": {
+      "path": "/login",
+      "controller": "Makmiko\\Project\\Controllers\\AccountController::login",
+      "method": "POST"
+    },
+    "logout": {
+      "path": "/logout",
+      "controller": "Makmiko\\Project\\Controllers\\AccountController::logout",
+      "method": "GET"
+    }
+  },
+  "db": {
+    "server": "127.0.0.1",
+    "dbname": "realtydb",
+    "user": "Makmiko",
+    "pass": "258LIKEmelt",
+    "charset": "utf8"
+  }
+}

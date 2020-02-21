@@ -1,0 +1,23 @@
+{
+    "name": "makmiko/project",
+    "description": "qualification project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Makmiko",
+            "email": "kondratiev.makar@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nikic/fast-route": "^2.0@dev",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Makmiko\\Project\\": "src/"
+        }
+    }
+}
